@@ -28,19 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            listBox1 = new ListBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPruebacs));
             checkBox1 = new CheckBox();
             label2 = new Label();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
-            // 
-            // listBox1
-            // 
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(241, 225);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(323, 139);
-            listBox1.TabIndex = 1;
             // 
             // checkBox1
             // 
@@ -62,23 +55,34 @@
             label2.TabIndex = 3;
             label2.Text = "Registra si tambien te engaño";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(131, 226);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(595, 203);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 4;
+            pictureBox1.TabStop = false;
+            // 
             // FrmPruebacs
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(pictureBox1);
             Controls.Add(label2);
             Controls.Add(checkBox1);
-            Controls.Add(listBox1);
             Name = "FrmPruebacs";
             Text = "FrmPruebacs";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-        private ListBox listBox1;
         private CheckBox checkBox1;
         private Label label2;
+        private PictureBox pictureBox1;
     }
 }
