@@ -35,28 +35,31 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(380, 115);
+            label1.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(41, 74);
             label1.Name = "label1";
-            label1.Size = new Size(50, 20);
+            label1.Size = new Size(604, 65);
             label1.TabIndex = 0;
-            label1.Text = "label1";
+            label1.Text = "EVER INFIEL TODA LA VIDA";
             // 
             // button1
             // 
-            button1.Location = new Point(336, 268);
+            button1.Location = new Point(244, 184);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(320, 150);
+            button1.Size = new Size(280, 112);
             button1.TabIndex = 1;
-            button1.Text = "button1";
+            button1.Text = "Confirmo";
             button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(700, 338);
             Controls.Add(button1);
             Controls.Add(label1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
