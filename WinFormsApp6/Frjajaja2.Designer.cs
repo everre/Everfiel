@@ -1,14 +1,14 @@
 ﻿namespace WinFormsApp6
 {
-    partial class Form1
+    partial class Frjajaja2
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,51 +23,36 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
             button1 = new Button();
             SuspendLayout();
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(47, 99);
-            label1.Name = "label1";
-            label1.Size = new Size(751, 81);
-            label1.TabIndex = 0;
-            label1.Text = "EVER INFIEL TODA LA VIDA";
-            // 
             // button1
             // 
-            button1.Location = new Point(279, 245);
+            button1.Location = new Point(157, 132);
             button1.Name = "button1";
-            button1.Size = new Size(320, 149);
-            button1.TabIndex = 1;
-            button1.Text = "Confirmo";
+            button1.Size = new Size(415, 157);
+            button1.TabIndex = 0;
+            button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
             // 
-            // Form1
+            // Frjajaja2
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 451);
+            ClientSize = new Size(800, 450);
             Controls.Add(button1);
-            Controls.Add(label1);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "Frjajaja2";
+            Text = "Frjajaja2";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
         private Button button1;
     }
 }
